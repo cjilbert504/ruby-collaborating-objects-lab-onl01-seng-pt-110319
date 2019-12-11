@@ -17,7 +17,7 @@ class Song
     artist, song = name.split(" - ")
     new_song = Song.new(song)
     new_song.artist_name = artist
-    new_song
+    #new_song
   end
 
   def artist_name=
