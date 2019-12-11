@@ -24,6 +24,5 @@ class Artist
   end
 
   def print_songs
-    puts songs.name
   end
 end
