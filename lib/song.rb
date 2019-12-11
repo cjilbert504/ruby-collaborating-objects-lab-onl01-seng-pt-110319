@@ -11,8 +11,4 @@ class Song
   def self.all
     @@all
   end
-
-  #def artist_name(name)
-  #  || name = Artist.new(name)
-  #end
 end
