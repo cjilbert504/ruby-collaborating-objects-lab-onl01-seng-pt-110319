@@ -12,7 +12,7 @@ class Song
     @@all
   end
 
-  def artist_name(name)
-    || name = Artist.new(name)
-  end
+  #def artist_name(name)
+  #  || name = Artist.new(name)
+  #end
 end
