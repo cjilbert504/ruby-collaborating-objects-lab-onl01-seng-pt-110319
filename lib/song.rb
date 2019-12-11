@@ -17,10 +17,10 @@ class Song
     artist, song = name.split(" - ")
     new_song = Song.new(song)
     new_song.artist_name = artist
-    #new_song
+    new_song
   end
 
-  def artist_name=
+  def artist_name=(name)
       self.artist = Artist.find_or_create_by_name(name)
   end
 
