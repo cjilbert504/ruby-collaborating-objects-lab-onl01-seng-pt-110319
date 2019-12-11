@@ -7,6 +7,6 @@ class MP3Importer
   end
 
   def files
-    Dir.glob("#{@path}/*.mp3")[0].gsub("./spec/fixtures/mp3s/", "")
+    Dir.glob("#{@path}/*.mp3").map
   end
 end
